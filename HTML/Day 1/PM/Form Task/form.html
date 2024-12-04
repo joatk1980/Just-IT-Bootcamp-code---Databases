@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Form-->
+    <!--used to take user input-->
+    <form action="confirmation.html">
+      <label for="name">Name</label>
+      <input type="text" id="name" required placeholder="Type Name Here" />
+
+      <br />
+      <br />
+      <label for="">Email:</label>
+      <input type="email" id="email" required placeholder="example@gmail.com" />
+
+      <br />
+      <br />
+
+      <label for="password"
+        >Password:
+        <input type="password" id="password" required placeholder="*****" />
+      </label>
+
+      <br />
+      <br />
+      <input type="submit" value="Login" />
+      <input type="reset" value="Clear" />
+    </form>
+
+    <!--Radio Buttons-->
+    <p>Choose an option below</p>
+    <form action="">
+      <label for="male">Male:</label>
+      <input type="radio" id="male" name="gender" />
+      <br />
+      <br />
+      <label for="female">Female:</label>
+      <input type="radio" id="female" name="gender" />
+    </form>
+
+    <!--Task-->
+    <!--Checkboxes-->
+    <h1>What are your hobbies</h1>
+
+    <form action="">
+      <input type="checkbox" id="running" name="running" value="running" />
+      <label for="running"> I like to run</label><br />
+      <input type="checkbox" id="sleeping" name="sleeping" value="sleeping" />
+      <label for="sleeping"> I like to sleep</label><br />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!--File upload input-->
+
+    <h1>Upload a picture of your favourite hobby</h1>
+
+    <form action="">
+      <input type="file" id="myFile" name="filename" />
+      <input type="submit" />
+    </form>
+
+    <!--A Textarea-->
+    <h1>The textarea element</h1>
+
+    <form action="">
+      <p><label for="Hobby details"> </label></p>
+      <textarea id="" name="Hobbies" rows="4" cols="50">
+Write a bit about your hobbies</textarea
+      >
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>Please Click the "Submit" button.</p>
+
+    <!--Dropdown list-->
+
+    <label for="hobbies">Choose a hobby:</label>
+    <br />
+    <br />
+    <select name="hobby" id="hobby">
+      <option value="running">Running</option>
+      <option value="sleeping">Sleeping</option>
+      <option value="eating">Eating</option>
+      <option value="swimming">Swimming</option>
+    </select>
+  </body>
+</html>
